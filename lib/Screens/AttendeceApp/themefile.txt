@@ -1,0 +1,45 @@
+seedColor: Colors.green
+
+This is the base color used to generate the entire color scheme.
+
+Flutter uses this to compute all other colors (like primaryContainer, surfaceTint, etc.) in Material Design 3.
+
+If you change this to Colors.blue, for example, the whole app will take on a bluish tone.
+
+primary: Colors.green
+
+This defines your primary brand color — the main color of your app.
+
+It’s typically used for:
+
+AppBar background
+
+Buttons (like ElevatedButton)
+
+Active switches, sliders, and selection controls
+
+secondary: Colors.greenAccent
+
+The secondary color is used for highlighting parts of your UI.
+
+It complements the primary color and is often used for:
+
+Floating Action Buttons
+
+Active icons
+
+Progress indicators
+
+Accent details or highlights
+
+onPrimary: Colors.white
+
+Defines the text/icon color that appears on top of the primary color.
+
+Since your primary color is green, text/icons over green areas (like AppBar titles or button labels) will appear white for contrast.
+
+onSecondary: Colors.black
+
+Defines the text/icon color that appears on top of the secondary color.
+
+Since your secondary is light (greenAccent), black provides good contrast.
